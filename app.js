@@ -9,7 +9,7 @@ import forest1 from "./img/forest1.png";
 import forest2 from "./img/forest2.png";
 
 // import { TimelineMax } from "gsap";
-// let OrbitControls = require("three-orbit-controls")(THREE);
+let OrbitControls = require("three-orbit-controls")(THREE);
 
 export default class Sketch {
   constructor(selector) {
