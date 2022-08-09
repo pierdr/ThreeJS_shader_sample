@@ -3,13 +3,15 @@ import * as THREE from "three";
 
 import fragment from "./shader/fragment.glsl";
 import vertex from "./shader/vertex.glsl";
+import simFragment from "./shader/simFragment.glsl";
+import simVertex   from "./shader/simVertex.glsl";
+
 // import vertexParticles from "./shader/vertexParticles.glsl";
 import * as dat from "dat.gui";
 import forest1 from "./img/forest1.png";
 import forest2 from "./img/forest2.png";
 
-import simFragment from "./shader/simFragment.glsl";
-import simVertex from "./shader/simVertex.glsl";
+
 
 // import { TimelineMax } from "gsap";
 let OrbitControls = require("three-orbit-controls")(THREE);
