@@ -8,6 +8,9 @@ import * as dat from "dat.gui";
 import forest1 from "./img/forest1.png";
 import forest2 from "./img/forest2.png";
 
+import simFragment from "./shader/simFragment.glsl";
+import simVertex from "./shader/simVertex.glsl";
+
 // import { TimelineMax } from "gsap";
 let OrbitControls = require("three-orbit-controls")(THREE);
 
